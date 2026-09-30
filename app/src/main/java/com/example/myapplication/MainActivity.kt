@@ -122,9 +122,9 @@ fun TarjetaPresentacion() {
 
         Spacer(modifier = Modifier.height(32.dp))
 
-        // ==========================================
+
         // BOTÓN 1: GitHub Profile
-        // ==========================================
+
         Button(
             onClick = {
                 if (showGithubQr) {
@@ -169,9 +169,9 @@ fun TarjetaPresentacion() {
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // ==========================================
+
         // BOTÓN 2: LinkedIn Profile
-        // ==========================================
+
         Button(
             onClick = {
                 if (showLinkedinQr) {
@@ -216,9 +216,9 @@ fun TarjetaPresentacion() {
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // ==========================================
+
         // BOTÓN 3: Descargar / Ver CV
-        // ==========================================
+
         Button(
             onClick = {
                 if (showCvQr) {
@@ -293,9 +293,9 @@ fun TarjetaPresentacion() {
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // ==========================================
+
         // BOTÓN 4: Mis Proyectos
-        // ==========================================
+
         Button(
             onClick = {
                 if (showProyectosQr) {
